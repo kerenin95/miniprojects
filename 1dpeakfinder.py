@@ -7,4 +7,4 @@ def peakfind(l):
         if (l[i] > l[i-1]) and (l[i] > l[i+1]): 
                 return "peak is {}".format(l[i])
                 
-print(peakfind(l))
+print(peakfind(l)) 
